@@ -6,11 +6,10 @@ public class Reduce {
         while (i != 0) {
             if (i % 2 == 0) {
                 i = i / 2;
-                steps++;
             } else {
                 i = i - 1;
-                steps++;
             }
+            steps++;
         }
         System.out.println(steps);
     }
